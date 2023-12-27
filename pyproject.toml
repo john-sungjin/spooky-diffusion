@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jazz"
+version = "0.1.0"
+description = ""
+authors = ["John Sungjin Kim <jsjkim00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+modal = "^0.55.3881"
+huggingface-hub = "^0.18.0"
+torch = "^2.1.0"
+diffusers = "^0.21.4"
+httpx = "^0.25.0"
+opencv-python = "^4.8.1.78"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
